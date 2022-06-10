@@ -56,3 +56,17 @@ footer {
 footer a {
   color: #fff;
 }
+
+@media (max-width: 600px) {
+  .relogio {
+    width: 300px;
+    height: 100px;
+  }
+  .relogio div {
+    width: 80px;
+    height: 80px;
+  }
+  .relogio span {
+    font-size: 30px;
+  }
+}
