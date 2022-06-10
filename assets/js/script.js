@@ -19,7 +19,7 @@ const relogio = setInterval(function time() {
   if (hr >= 5 && hr < 7) {
     document.body.style.background =
       "linear-gradient(120deg, #108dc7, #ef8e38)";
-  } else if (hr >= 7 && hr <= 16) {
+  } else if (hr >= 7 && hr < 16) {
     document.body.style.background =
       "linear-gradient(120deg, #FDC830, #F37335)";
   } else if (hr >= 16 && hr <= 18) {
