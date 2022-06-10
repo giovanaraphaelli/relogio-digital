@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(120deg, #c6ffdd, #fbd786, #f7797d);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.relogio {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px;
+  width: 500px;
+  background-color: transparent;
+  border-radius: 3px;
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
+}
+
+.relogio div {
+  height: 170px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background: rgba(5, 5, 5, 0.9);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+  border-radius: 7px;
+  letter-spacing: 2px;
+}
+
+.relogio span {
+  font-size: 60px;
+}
+
+.relogio span.tempo {
+  font-size: 12px;
+}
+footer {
+  font-size: 12px;
+  color: #fff;
+  text-shadow: 1px 1px 2px black;
+}
+
+footer a {
+  color: #fff;
+}
